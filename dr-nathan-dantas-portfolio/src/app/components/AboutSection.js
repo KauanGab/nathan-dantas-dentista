@@ -8,9 +8,9 @@ const AboutSection = () => {
     <section id="quem-somos" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">Sobre o Dr. Nathan</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">Sobre o Dr. Nathan Dantas</h2>
           <p className="text-gray-700 mb-3 text-base md:text-lg leading-relaxed max-w-xl">
-            <strong>Dr. Nathan Dantas</strong>, cirurgião-dentista formado pela UNIRB (<strong>CRO-SE 03939</strong>), atua com foco em odontologia estética e restauradora.
+            <strong>Dr. Nathan Dantas</strong>, cirurgião-dentista formado pela UNIRB (<strong>CRO-SE 03939</strong>), comprometido com o cuidado clínico e restaurador, promovendo saúde bucal de forma acessível e personalizada.
           </p>
           <p className="text-gray-700 mb-3 text-base md:text-lg leading-relaxed max-w-xl">
             Oferece atendimento humanizado, ético e personalizado, utilizando técnicas modernas para resultados naturais e duradouros.

@@ -16,8 +16,8 @@ const HeroSection = () => {
         </div>
 
         <div className="md:w-1/2 text-center md:text-left md:pl-12 py-16 md:py-24">
-          <h2 className="text-4xl md:text-5xl font-bold text-blue-700 mb-2">Dr. Nathan</h2>
-          <h3 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">Especialista em Odontologia</h3>
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-700 mb-2">Dr. Nathan Dantas</h2>
+          <h3 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">Cirurgião-dentista</h3>
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
             Transformando sorrisos para uma melhor qualidade de vida! 
             Nosso compromisso é oferecer um atendimento humanizado e de excelência, 
