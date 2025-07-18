@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="flex justify-center">
           <div className="grid w-full max-w-6xl grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
-            
+
             <div className="sm:col-span-2 lg:col-span-1">
               <h3 className="text-xl font-bold text-white mb-4">Dr. Nathan Dantas</h3>
               <p className="text-sm">
@@ -33,12 +33,16 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white mb-4">Contato</h3>
               <ul className="space-y-3 text-sm">
                 <li className="flex items-start justify-center sm:justify-start">
-                  <span className="flex-shrink-0 mr-2 mt-1">📍</span>
+                  <span className="flex-shrink-0 mr-2 mt-1"></span>
                   <span>{address}</span>
                 </li>
                 <li className="flex items-start justify-center sm:justify-start">
-                  <span className="flex-shrink-0 mr-2 mt-1">📧</span>
-                  <a href="mailto:dr.nathandantas@gmail.com" className="hover:text-blue-400 transition-colors">dr.nathandantas@gmail.com</a>
+                  <span className="flex-shrink-0 mr-2 mt-1"></span>
+                  <a href="mailto:dr.nathandantas@gmail.com?subject=Consulta&body=Olá, gostaria de agendar uma consulta." className="hover:text-blue-400 transition-colors">dr.nathandantas@gmail.com</a>
+                </li>
+                <li className="flex items-start justify-center sm:justify-start">
+                  <span className="flex-shrink-0 mr-2 mt-1"></span>
+                  <a href="tel:+557598105155" className="hover:text-blue-400 transition-colors">(75) 9 9810-5155</a>
                 </li>
               </ul>
             </div>
@@ -62,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 border-t border-gray-700 pt-8 text-center text-sm">
-          <p>&copy; {new Date( ).getFullYear()} Dr. Nathan Dantas. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Dr. Nathan Dantas. Todos os direitos reservados.</p>
           <p className="mt-2">Desenvolvido por <span className="font-semibold text-white">Kauan Gabriel</span></p>
         </div>
       </div>

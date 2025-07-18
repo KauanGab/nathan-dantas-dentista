@@ -37,9 +37,11 @@ const AboutSection = () => {
             ))}
           </div>
 
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-full text-base font-medium hover:bg-blue-700 transition flex items-center mx-auto md:mx-0">
-            Agendar Consulta
-          </button>
+          <a href="http://wa.me/5579991959241" target="_blank">
+            <button className="bg-blue-600 text-white px-6 py-3 rounded-full text-base font-medium hover:bg-blue-700 transition flex items-center mx-auto md:mx-0">
+              Agendar Consulta
+            </button>
+          </a>
         </div>
 
         <div className="md:w-1/2 flex justify-center">
