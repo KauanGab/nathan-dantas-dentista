@@ -19,17 +19,20 @@ const AboutSection = () => {
             Realiza procedimentos como limpezas, check-ups, restaurações, raspagens, extrações e facetas. Sempre com foco em segurança e conforto.
           </p>
 
-          <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-6">
+          <div className="space-y-4 my-8">
             {[
-              { icon: <FaTooth />, label: 'Experiência' },
-              { icon: <FaUserTie />, label: 'Profissionalismo' },
-              { icon: <FaStar />, label: 'Resultados' },
+              { icon: <FaTooth className="text-blue-600" />, label: 'Experiência Comprovada', description: 'Técnicas modernas para os melhores resultados.' },
+              { icon: <FaUserTie className="text-blue-600" />, label: 'Atendimento Humanizado', description: 'Cuidado personalizado e focado em você.' },
+              { icon: <FaStar className="text-blue-600" />, label: 'Resultados de Excelência', description: 'Pacientes satisfeitos com sorrisos renovados.' },
             ].map((item, index) => (
-              <div key={index} className="flex flex-col items-center p-4 w-32 bg-gray-50 rounded-lg shadow hover:shadow-md transition">
-                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mb-2">
-                  <span className="text-blue-600 text-xl">{item.icon}</span>
+              <div key={index} className="flex items-center">
+                <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                  <span className="text-2xl">{item.icon}</span>
                 </div>
-                <p className="text-sm font-medium text-gray-800 text-center">{item.label}</p>
+                <div>
+                  <h4 className="font-semibold text-gray-800">{item.label}</h4>
+                  <p className="text-gray-600 text-sm">{item.description}</p>
+                </div>
               </div>
             ))}
           </div>
