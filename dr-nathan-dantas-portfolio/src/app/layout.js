@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dr. Nathan Dantas - Transformando Sorrisos",
+  title: "Dr. Nathan Dantas – Seu Sorriso, Nossa Missão",
   description: "Site portfólio do Dr. Nathan Dantas, dentista especializado em transformar sorrisos para uma melhor qualidade de vida.",
 };
 
