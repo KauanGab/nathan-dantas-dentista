@@ -4,7 +4,7 @@ import nathan from '../assets/NathanProfile.png';
 
 const HeroSection = () => {
   return (
-    <section className="bg-blue-50">
+    <section id="inicio" className="bg-blue-50">
       <div className="container mx-auto flex flex-col md:flex-row items-end justify-center px-4">
         <div className="md:w-1/2 flex justify-center">
           <Image 
