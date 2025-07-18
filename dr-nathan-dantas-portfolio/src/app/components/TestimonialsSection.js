@@ -1,17 +1,88 @@
+'use client';
+
 import React from 'react';
+import Image from 'next/image';
+
+const StarIcon = ({ className }) => (
+  <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+  </svg>
+ );
+
+const testimonials = [
+  {
+    quote: "O Dr. Nathan é um excelente profissional! Atencioso e muito competente. Meu sorriso nunca esteve tão bonito e saudável.",
+    author: "Ana Silva",
+    avatar: "/avatars/avatar-1.jpg",
+  },
+  {
+    quote: "Atendimento impecável e resultados surpreendentes no meu clareamento. A clínica é moderna e a equipe é fantástica. Recomendo!",
+    author: "Carlos Souza",
+    avatar: "/avatars/avatar-2.jpg",
+  },
+  {
+    quote: "Tinha muito medo de dentista, mas o Dr. Nathan e sua equipe me deixaram super à vontade. O tratamento foi tranquilo e indolor.",
+    author: "Mariana Costa",
+    avatar: "/avatars/avatar-3.jpg",
+  },
+  {
+    quote: "Fiz a extração do siso e a recuperação foi muito mais rápida do que eu esperava. Profissionalismo nota mil!",
+    author: "Pedro Oliveira",
+    avatar: "/avatars/avatar-4.jpg",
+  },
+  {
+    quote: "O resultado das minhas facetas de resina ficou incrível, super natural. Transformou completamente meu sorriso. Estou muito feliz!",
+    author: "Juliana Pereira",
+    avatar: "/avatars/avatar-5.jpg",
+  },
+  {
+    quote: "Serviço de emergência ágil e eficiente. Fui atendido rapidamente e resolveram meu problema com muita atenção e cuidado.",
+    author: "Ricardo Lima",
+    avatar: "/avatars/avatar-6.jpg",
+  },
+];
 
 const TestimonialsSection = () => {
   return (
-    <section id="depoimentos" className="py-20 container mx-auto text-center">
-      <h2 className="text-3xl font-bold text-blue-800 mb-8">Opinião dos Clientes</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="p-6 bg-white rounded-lg shadow-md">
-          <p className="italic text-gray-700 mb-4">"O Dr. Nathan é um excelente profissional! Meu sorriso nunca esteve tão bonito."</p>
-          <p className="font-semibold text-blue-600">- Paciente 1</p>
-        </div>
-        <div className="p-6 bg-white rounded-lg shadow-md">
-          <p className="italic text-gray-700 mb-4">"Atendimento impecável e resultados surpreendentes. Recomendo!"</p>
-          <p className="font-semibold text-blue-600">- Paciente 2</p>
+    <section id="depoimentos" className="py-20 bg-blue-50">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-blue-700 mb-4">
+          Confiança que se vê no Sorriso
+        </h2>
+        <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+          Veja o que nossos pacientes dizem sobre a experiência em nossa clínica.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center transform transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl"
+            >
+              <div className="relative w-24 h-24 mb-6">
+                <Image
+                  src={testimonial.avatar}
+                  alt={`Foto de ${testimonial.author}`}
+                  fill
+                  className="rounded-full object-cover border-4 border-blue-100"
+                  sizes="96px"
+                />
+              </div>
+
+              <div className="flex items-center mb-4">
+                {Array(5).fill(0).map((_, i) => (
+                  <StarIcon key={i} className="w-5 h-5 text-yellow-400" />
+                ))}
+              </div>
+
+              <p className="italic text-gray-700 mb-6 flex-grow">
+                "{testimonial.quote}"
+              </p>
+
+              <p className="font-bold text-lg text-blue-700">{testimonial.author}</p>
+              <p className="text-sm text-gray-500">Paciente Verificado</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
