@@ -8,9 +8,9 @@ const AboutSection = () => {
     <section id="quem-somos" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">Sobre o Dr. Nathan Dantas</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">Sobre Dr. Nathan Dantas</h2>
           <p className="text-gray-700 mb-3 text-base md:text-lg leading-relaxed max-w-xl">
-            <strong>Dr. Nathan Dantas</strong>, cirurgião-dentista formado pela UNIRB (<strong>CRO-SE 03939</strong>), comprometido com o cuidado clínico e restaurador, promovendo saúde bucal de forma acessível e personalizada.
+            <strong>Dr. Nathan Dantas</strong>, cirurgião-dentista formado pelo CENTRO UNIVERSITÁRIO UNIRB(<strong>CRO-SE 03939</strong>), comprometido com o cuidado clínico e restaurador, promovendo saúde bucal de forma acessível e personalizada.
           </p>
           <p className="text-gray-700 mb-3 text-base md:text-lg leading-relaxed max-w-xl">
             Oferece atendimento humanizado, ético e personalizado, utilizando técnicas modernas para resultados naturais e duradouros.
@@ -37,7 +37,7 @@ const AboutSection = () => {
             ))}
           </div>
 
-          <a href="http://wa.me/5579991959241" target="_blank">
+          <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank">
             <button className="bg-blue-600 text-white px-6 py-3 rounded-full text-base font-medium hover:bg-blue-700 transition flex items-center mx-auto md:mx-0">
               Agendar Consulta
             </button>

@@ -3,12 +3,10 @@
 import React from 'react';
 
 const ContactSection = () => {
-  const address = "R. Laranjeiras, 422 - Centro, Aracaju - SE, 49010-000";
-  const whatsappLink = "http://wa.me/5579991959241";
+  const address = "Atendimento presencial em Aracaju Sergipe";
+  const whatsappLink = "https://wa.me/message/BMPNVWC4QTNTM1";
   const instagramLink = "https://www.instagram.com/dr.nathandantas/";
   const email = "dr.nathandantas@gmail.com";
-
-  const googleMapsEmbedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.684958259423!2d-37.051877999999995!3d-10.911529999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab345a48e4715%3A0x42002271d672aeaf!2sDr.%20Nathan%20Dantas!5e0!3m2!1spt-BR!2sbr!4v1752850745092!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade`;
 
   return (
     <section id="contato" className="bg-white py-20">
@@ -22,12 +20,11 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="bg-gray-50 p-8 rounded-xl shadow-lg">
+        <div className="max-w-2xl mx-auto flex justify-center">
+          <div className="bg-gray-50 p-8 rounded-xl shadow-lg w-full">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Informações de Contato</h3>
             <div className="space-y-6">
               <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start group"
@@ -47,7 +44,7 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-4">
                   <p className="font-semibold text-gray-800">WhatsApp</p>
-                  <p className="text-gray-600 group-hover:text-blue-600 transition-colors">(79 ) 99195-9241</p>
+                  <p className="text-gray-600 group-hover:text-blue-600 transition-colors">(79) 99195-9241</p>
                 </div>
               </a>
 
@@ -71,18 +68,6 @@ const ContactSection = () => {
                 </div>
               </a>
             </div>
-          </div>
-
-          <div className="h-96 lg:h-full w-full rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              src={googleMapsEmbedUrl}
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
           </div>
         </div>
 

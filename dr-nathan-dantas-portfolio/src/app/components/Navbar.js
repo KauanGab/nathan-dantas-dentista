@@ -63,7 +63,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <a href="http://wa.me/5579991959241" target="_blank" className="hidden lg:inline-block bg-blue-600 text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-blue-700 transition-colors duration-300">
+        <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank" className="hidden lg:inline-block bg-blue-600 text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-blue-700 transition-colors duration-300">
           Agendar Consulta
         </a>
 
@@ -95,7 +95,7 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <a href="http://wa.me/5579991959241" target="_blank" className="mt-2 inline-block bg-blue-600 text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-blue-700">
+              <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank" className="mt-2 inline-block bg-blue-600 text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-blue-700">
                 Agendar Consulta
               </a>
             </li>

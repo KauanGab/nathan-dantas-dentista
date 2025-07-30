@@ -4,8 +4,8 @@ import React from 'react';
 
 const Footer = () => {
   const instagramLink = "https://www.instagram.com/dr.nathandantas/";
-  const whatsappLink = "http://wa.me/5579991959241";
-  const address = "R. Laranjeiras, 422 - Centro, Aracaju - SE, 49010-000";
+  const whatsappLink = "https://wa.me/message/BMPNVWC4QTNTM1";
+  const address = "Atendimento presencial em Aracaju Sergipe";
 
   return (
     <footer className="bg-gray-800 text-gray-300">

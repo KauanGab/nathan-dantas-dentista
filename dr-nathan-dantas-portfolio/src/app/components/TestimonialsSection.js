@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import avatar1 from '../assets/avatar-1.jpeg';
+import avatar1 from '../assets/avatar-1.jpg';
 import avatar2 from '../assets/avatar-2.jpg';
 import avatar3 from '../assets/avatar-3.jpg';
 import avatar4 from '../assets/avatar-4.jpg';
@@ -23,13 +23,13 @@ const testimonials = [
     avatar: avatar1,
   },
   {
-    quote: "Atendimento impecável e resultados surpreendentes no meu clareamento. A clínica é moderna e a equipe é fantástica. Recomendo!",
+    quote: "Atendimento impecável e resultados surpreendentes no meu clareamento. A clínica é moderna. Recomendo!",
     author: "Juliana Pereira",
     avatar: avatar2,
   },
   {
-    quote: "Tinha muito medo de dentista, mas o Dr. Nathan e sua equipe me deixaram super à vontade. O tratamento foi tranquilo e indolor.",
-    author: "Mariana Costa",
+    quote: "Tinha muito medo de dentista, mas o Dr. Nathan me deixou super à vontade. O tratamento foi tranquilo e sem dor. ",
+    author: "Eduarda Silva",
     avatar: avatar3,
   },
   {
