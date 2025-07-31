@@ -56,7 +56,7 @@ const Navbar = () => {
         <ul className="hidden lg:flex space-x-6 text-gray-700 font-medium items-center">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a href={link.href} className="hover:text-blue-600 transition-colors duration-300">
+              <a href={link.href} className="hover:text-custom-blue transition-colors duration-300">
                 {link.label}
               </a>
             </li>
@@ -87,7 +87,7 @@ const Navbar = () => {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="text-gray-700 hover:text-blue-600"
+                className="text-gray-700 hover:text-custom-blue"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
