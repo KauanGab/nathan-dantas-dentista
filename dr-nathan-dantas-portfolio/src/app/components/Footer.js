@@ -23,9 +23,9 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Navegue</h3>
               <ul className="space-y-2">
-                <li><a href="#servicos" className="hover:text-blue-400 transition-colors">Serviços</a></li>
-                <li><a href="#depoimentos" className="hover:text-blue-400 transition-colors">Depoimentos</a></li>
-                <li><a href="#contato" className="hover:text-blue-400 transition-colors">Contato</a></li>
+                <li><a href="#servicos" className="hover:text-custom-blue transition-colors">Serviços</a></li>
+                <li><a href="#depoimentos" className="hover:text-custom-blue transition-colors">Depoimentos</a></li>
+                <li><a href="#contato" className="hover:text-custom-blue transition-colors">Contato</a></li>
               </ul>
             </div>
 
@@ -38,11 +38,11 @@ const Footer = () => {
                 </li>
                 <li className="flex items-start justify-center sm:justify-start">
                   <span className="flex-shrink-0 mr-2 mt-1"></span>
-                  <a href="mailto:dr.nathandantas@gmail.com?subject=Consulta&body=Olá, gostaria de agendar uma consulta." className="hover:text-blue-400 transition-colors">dr.nathandantas@gmail.com</a>
+                  <a href="mailto:dr.nathandantas@gmail.com?subject=Consulta&body=Olá, gostaria de agendar uma consulta." className="hover:text-custom-blue transition-colors">dr.nathandantas@gmail.com</a>
                 </li>
                 <li className="flex items-start justify-center sm:justify-start">
                   <span className="flex-shrink-0 mr-2 mt-1"></span>
-                  <a href="tel:+557598105155" className="hover:text-blue-400 transition-colors">(75) 9 9810-5155</a>
+                  <a href="tel:+557598105155" className="hover:text-custom-blue transition-colors">(75) 9 9810-5155</a>
                 </li>
               </ul>
             </div>

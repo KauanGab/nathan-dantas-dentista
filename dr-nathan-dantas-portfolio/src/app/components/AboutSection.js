@@ -8,7 +8,7 @@ const AboutSection = () => {
     <section id="quem-somos" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-4">Sobre Dr. Nathan Dantas</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-custom-blue mb-4">Sobre Dr. Nathan Dantas</h2>
           <p className="text-gray-700 mb-3 text-base md:text-lg leading-relaxed max-w-xl">
             <strong>Dr. Nathan Dantas</strong>, cirurgião-dentista formado pelo CENTRO UNIVERSITÁRIO UNIRB(<strong>CRO-SE 03939</strong>), comprometido com o cuidado clínico e restaurador, promovendo saúde bucal de forma acessível e personalizada.
           </p>
@@ -21,9 +21,9 @@ const AboutSection = () => {
 
           <div className="space-y-4 my-8">
             {[
-              { icon: <FaTooth className="text-blue-600" />, label: 'Experiência Comprovada', description: 'Técnicas modernas para os melhores resultados.' },
-              { icon: <FaUserTie className="text-blue-600" />, label: 'Atendimento Humanizado', description: 'Cuidado personalizado e focado em você.' },
-              { icon: <FaStar className="text-blue-600" />, label: 'Resultados de Excelência', description: 'Pacientes satisfeitos com sorrisos renovados.' },
+              { icon: <FaTooth className="text-custom-blue" />, label: 'Experiência Comprovada', description: 'Técnicas modernas para os melhores resultados.' },
+              { icon: <FaUserTie className="text-custom-blue" />, label: 'Atendimento Humanizado', description: 'Cuidado personalizado e focado em você.' },
+              { icon: <FaStar className="text-custom-blue" />, label: 'Resultados de Excelência', description: 'Pacientes satisfeitos com sorrisos renovados.' },
             ].map((item, index) => (
               <div key={index} className="flex items-center">
                 <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
@@ -38,7 +38,7 @@ const AboutSection = () => {
           </div>
 
           <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-full text-base font-medium hover:bg-blue-700 transition flex items-center mx-auto md:mx-0">
+            <button className="bg-custom-blue text-white px-6 py-3 rounded-full text-base font-medium hover:bg-custom-blue-darker transition flex items-center mx-auto md:mx-0">
               Agendar Consulta
             </button>
           </a>

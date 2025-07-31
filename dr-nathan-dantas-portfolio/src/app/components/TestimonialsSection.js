@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
   return (
     <section id="depoimentos" className="py-20 bg-blue-50">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-blue-700 mb-4">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-custom-blue mb-4">
           Confiança que se vê no Sorriso
         </h2>
         <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -86,7 +86,7 @@ const TestimonialsSection = () => {
                 &quot;{testimonial.quote}&quot;
               </p>
 
-              <p className="font-bold text-lg text-blue-700">{testimonial.author}</p>
+              <p className="font-bold text-lg text-custom-blue">{testimonial.author}</p>
               <p className="text-sm text-gray-500">Paciente Verificado</p>
             </div>
           ))}

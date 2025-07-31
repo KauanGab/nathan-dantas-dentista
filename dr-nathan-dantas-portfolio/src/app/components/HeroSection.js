@@ -16,7 +16,7 @@ const HeroSection = () => {
         </div>
 
         <div className="hidden md:block md:w-1/2 text-center md:text-left md:pl-12 py-16 md:py-24">
-          <h2 className="text-4xl md:text-5xl font-bold text-blue-700 mb-2">Dr. Nathan Dantas</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-custom-blue mb-2">Dr. Nathan Dantas</h2>
           <h3 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">Cirurgião-dentista</h3>
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
             Transformando sorrisos para uma melhor qualidade de vida!
@@ -24,7 +24,7 @@ const HeroSection = () => {
             utilizando as mais modernas técnicas e tecnologias para cuidar da sua saúde bucal.
           </p>
           <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank">
-            <button className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors duration-300">
+            <button className="bg-custom-blue text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-custom-blue-darker transition-colors duration-300">
               Agendar Consulta
             </button>
           </a>
@@ -43,7 +43,7 @@ const HeroSection = () => {
 
           <div className="relative z-10 h-full p-3 flex flex-col justify-end">
             <div className="flex flex-col">
-              <h3 className="text-3xl font-bold text-blue-600 mb-1 leading-tight">Dr. Nathan Dantas</h3>
+              <h3 className="text-3xl font-bold text-custom-blue mb-1 leading-tight">Dr. Nathan Dantas</h3>
 
               <div className="mb-3">
                 <h4 className="text-lg font-semibold text-gray-800 leading-tight">Cirurgião-dentista</h4>
@@ -55,7 +55,7 @@ const HeroSection = () => {
               </p>
 
               <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank">
-                <button className="bg-blue-600 text-white px-6 py-3 rounded-full text-base font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-lg w-fit">
+                <button className="bg-custom-blue text-white px-6 py-3 rounded-full text-base font-semibold hover:bg-custom-blue-darker transition-colors duration-300 shadow-lg w-fit">
                   Agendar Consulta
                 </button>
               </a>

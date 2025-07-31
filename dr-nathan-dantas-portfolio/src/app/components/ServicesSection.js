@@ -48,7 +48,7 @@ const ServicesSection = () => {
   return (
     <section id="servicos" className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-12">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-custom-blue mb-12">
           Principais Serviços
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -84,7 +84,7 @@ const ServicesSection = () => {
               </div>
 
               <div className="p-5 text-center flex-grow flex flex-col">
-                <h3 className="text-lg font-bold text-blue-700">
+                <h3 className="text-lg font-bold text-custom-blue">
                   {service.name}
                 </h3>
                 <p className="text-sm text-gray-600 mt-2 flex-grow">
