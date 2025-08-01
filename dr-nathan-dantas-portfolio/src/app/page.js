@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import PatientConcernsSection from "./components/PatientConcernsSection";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <ServicesSection />
       <TestimonialsSection />
+      <PatientConcernsSection />
       <CallToAction />
       <Footer />
     </main>
