@@ -15,7 +15,7 @@ const PatientConcernsSection = () => {
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4 mx-auto">
               <FaHeartbeat className="text-custom-blue text-3xl" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">"A ansiedade da cadeira do dentista?"</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">&quot;A ansiedade da cadeira do dentista?&quot;</h3>
             <p className="text-gray-600 text-base leading-relaxed">
               <span className="font-semibold text-custom-blue">Nossa abordagem:</span> Um ambiente sereno e técnicas que priorizam seu bem-estar, para que cada visita seja tranquila.
             </p>
@@ -25,7 +25,7 @@ const PatientConcernsSection = () => {
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4 mx-auto">
               <FaClock className="text-custom-blue text-3xl" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">"Tempo é ouro, e o meu é escasso!"</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">&quot;Tempo é ouro, e o meu é escasso!&quot;</h3>
             <p className="text-gray-600 text-base leading-relaxed">
               <span className="font-semibold text-custom-blue">Nossa flexibilidade:</span> Agendamentos adaptados à sua agenda, incluindo opções aos sábados, para que sua saúde bucal se encaixe na sua vida.
             </p>
@@ -35,7 +35,7 @@ const PatientConcernsSection = () => {
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4 mx-auto">
               <FaShieldAlt className="text-custom-blue text-3xl" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">"Preocupado com o desconforto?"</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">&quot;Preocupado com o desconforto?&quot;</h3>
             <p className="text-gray-600 text-base leading-relaxed">
               <span className="font-semibold text-custom-blue">Nosso compromisso:</span> Tecnologias de ponta e métodos minimamente invasivos garantem um tratamento confortável e eficaz.
             </p>
@@ -45,7 +45,7 @@ const PatientConcernsSection = () => {
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4 mx-auto">
               <FaSmile className="text-custom-blue text-3xl" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">"O resultado final será o esperado?"</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">&quot;O resultado final será o esperado?&quot;</h3>
             <p className="text-gray-600 text-base leading-relaxed">
               <span className="font-semibold text-custom-blue">Nossa garantia:</span> Milhares de sorrisos transformados e a certeza de um resultado que superará suas expectativas.
             </p>
