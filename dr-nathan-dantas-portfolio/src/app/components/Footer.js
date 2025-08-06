@@ -11,22 +11,13 @@ const Footer = () => {
     <footer className="bg-gray-800 text-gray-300">
       <div className="container mx-auto px-6 py-12">
         <div className="flex justify-center">
-          <div className="grid w-full max-w-6xl grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
+          <div className="grid w-full max-w-7xl grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center sm:text-left">
 
             <div className="sm:col-span-2 lg:col-span-1">
               <h3 className="text-xl font-bold text-white mb-4">Dr. Nathan Dantas</h3>
               <p className="text-sm">
                 Oferecendo odontologia de excelência com um atendimento humano e personalizado. Seu sorriso é nossa maior prioridade.
               </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Navegue</h3>
-              <ul className="space-y-2">
-                <li><a href="#servicos" className="hover:text-custom-blue transition-colors">Serviços</a></li>
-                <li><a href="#depoimentos" className="hover:text-custom-blue transition-colors">Depoimentos</a></li>
-                <li><a href="#contato" className="hover:text-custom-blue transition-colors">Contato</a></li>
-              </ul>
             </div>
 
             <div>

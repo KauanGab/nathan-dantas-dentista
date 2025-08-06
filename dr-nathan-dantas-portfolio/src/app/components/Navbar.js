@@ -35,6 +35,7 @@ const Navbar = () => {
     { href: '#quem-somos', label: 'Quem Somos' },
     { href: '#servicos', label: 'Serviços' },
     { href: '#depoimentos', label: 'Depoimentos' },
+    { href: '#suas-preocupacoes', label: 'Suas Preocupações' },
     { href: '#contato', label: 'Contato' },
   ];
 
