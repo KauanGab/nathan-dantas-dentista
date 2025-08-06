@@ -76,7 +76,7 @@ const ServicesSection = () => {
   };
 
   return (
-    <section id="servicos" className="py-16 bg-gray-100">
+    <section id="servicos" className="pt-16 pb-5 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-custom-blue mb-12">
           Principais Serviços
@@ -96,7 +96,7 @@ const ServicesSection = () => {
                     showThumbs={false}
                     infiniteLoop={true}
                     autoPlay={true}
-                    interval={7000}
+                    interval={9000}
                     stopOnHover={true}
                     swipeable={false}
                     emulateTouch={false}
@@ -181,6 +181,13 @@ const ServicesSection = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="md:hidden px-2 mt-6 mb-8">
+          <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank" rel="noopener noreferrer">
+            <button className="bg-custom-blue text-white px-7 py-3 rounded-full text-base font-medium hover:bg-custom-blue-darker transition flex items-center mx-auto md:mx-0">
+              Agendar Consulta
+            </button>
+          </a>
         </div>
       </div>
     </section>

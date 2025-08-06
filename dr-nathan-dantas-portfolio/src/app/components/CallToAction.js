@@ -44,7 +44,7 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-4">
                   <p className="font-semibold text-gray-800">WhatsApp</p>
-                  <p className="text-gray-600 group-hover:text-custom-blue transition-colors">(79) 99195-9241</p>
+                  <p className="text-gray-600 group-hover:text-custom-blue transition-colors">(79) 9 9195-9241</p>
                 </div>
               </a>
 

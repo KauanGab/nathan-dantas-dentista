@@ -3,7 +3,7 @@ import { FaHeartbeat, FaClock, FaShieldAlt, FaSmile } from 'react-icons/fa';
 
 const PatientConcernsSection = () => {
   return (
-    <section id="suas-preocupacoes" className="py-16 bg-blue-50">
+    <section id="suas-preocupacoes" className="py-2 pb-8 bg-blue-50">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-custom-blue mb-4">Suas Preocupações, Nossas Soluções</h2>
         <p className="text-gray-700 mb-12 text-lg leading-relaxed">

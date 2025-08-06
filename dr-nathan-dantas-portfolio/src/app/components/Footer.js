@@ -33,7 +33,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-start justify-center sm:justify-start">
                   <span className="flex-shrink-0 mr-2 mt-1"></span>
-                  <a href="tel:+557598105155" className="hover:text-custom-blue transition-colors">(75) 9 9810-5155</a>
+                  <a href="tel:+557598105155" className="hover:text-custom-blue transition-colors">(79) 9 9195-9241</a>
                 </li>
               </ul>
             </div>

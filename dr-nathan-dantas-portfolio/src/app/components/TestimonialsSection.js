@@ -51,7 +51,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="depoimentos" className="py-20 bg-blue-50">
+    <section id="depoimentos" className="py-8 bg-blue-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-custom-blue mb-4">
           Confiança que se vê no Sorriso
@@ -90,6 +90,13 @@ const TestimonialsSection = () => {
               <p className="text-sm text-gray-500">Paciente Verificado</p>
             </div>
           ))}
+        </div>
+        <div className="md:hidden px-4 mt-6 mb-8">
+          <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank" rel="noopener noreferrer">
+            <button className="bg-custom-blue text-white px-7 py-3 rounded-full text-base font-medium hover:bg-custom-blue-darker transition flex items-center mx-auto md:mx-0">
+              Agendar Consulta
+            </button>
+          </a>
         </div>
       </div>
     </section>
