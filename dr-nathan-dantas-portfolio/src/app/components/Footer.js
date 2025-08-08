@@ -15,8 +15,8 @@ const Footer = () => {
 
             <div className="sm:col-span-2 lg:col-span-1">
               <h3 className="text-xl font-bold text-white mb-4">Dr. Nathan Dantas</h3>
-              <p className="text-sm">
-                Oferecendo odontologia de excelência com um atendimento humano e personalizado. Seu sorriso é nossa maior prioridade.
+              <p className="text-sm text-justify">
+                Oferecendo odontologia de excelência com um atendimento humano e personalizado. O seu sorriso é a nossa maior prioridade.
               </p>
             </div>
 
@@ -58,7 +58,9 @@ const Footer = () => {
 
         <div className="mt-12 border-t border-gray-700 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Dr. Nathan Dantas. Todos os direitos reservados.</p>
-          <p className="mt-2">Desenvolvido por <span className="font-semibold text-white">Kauan Gabriel</span></p>
+          <a href="https://www.linkedin.com/in/kauan-gabriel-b5721b258/" target="_blank" rel="noopener noreferrer" className="mt-2 block">
+            Desenvolvido por <span className="font-semibold text-white">Kauan Gabriel</span>
+          </a>
         </div>
       </div>
     </footer>
