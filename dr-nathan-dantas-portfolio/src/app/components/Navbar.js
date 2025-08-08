@@ -40,7 +40,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav 
+    <nav
       className={`bg-white shadow-md py-3 fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <div className="container mx-auto flex justify-between items-center px-4">
@@ -54,10 +54,23 @@ const Navbar = () => {
           />
         </a>
 
-        <ul className="hidden lg:flex space-x-6 text-gray-700 font-medium items-center">
+        <ul className="hidden lg:flex space-x-7 text-gray-700 font-medium items-center">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a href={link.href} className="hover:text-custom-blue transition-colors duration-300">
+              <a
+                href={link.href}
+                onClick={(e) => {
+                  e.preventDefault();
+                  const target = document.querySelector(link.href);
+                  if (target) {
+                    target.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start"
+                    });
+                  }
+                }}
+                className="hover:text-custom-blue transition-colors duration-300 cursor-pointer"
+              >
                 {link.label}
               </a>
             </li>
@@ -83,24 +96,40 @@ const Navbar = () => {
 
       {isMenuOpen && (
         <div className="lg:hidden mt-3 bg-white border-t border-gray-200">
-          <ul className="flex flex-col items-center space-y-4 py-4">
-            {navLinks.map((link ) => (
+          <ul className="flex flex-col items-center space-y-5 py-4">
+            {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
-                className="text-gray-700 hover:text-custom-blue"
-                  onClick={() => setIsMenuOpen(false)}
+                  className="text-gray-700 hover:text-custom-blue cursor-pointer"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const target = document.querySelector(link.href);
+                    if (target) {
+                      target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                      });
+                    }
+                    setIsMenuOpen(false);
+                  }}
                 >
                   {link.label}
                 </a>
               </li>
             ))}
+
             <li>
-              <a href="https://wa.me/message/BMPNVWC4QTNTM1" target="_blank" className="mt-2 inline-block bg-custom-blue text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-custom-blue-darker">
+              <a
+                href="https://wa.me/message/BMPNVWC4QTNTM1"
+                target="_blank"
+                className="mt-2 inline-block bg-custom-blue text-white px-6 py-2 rounded-full text-base font-semibold hover:bg-custom-blue-darker"
+              >
                 Agendar Consulta
               </a>
             </li>
           </ul>
+
         </div>
       )}
     </nav>

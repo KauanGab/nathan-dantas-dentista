@@ -30,7 +30,7 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="md:hidden w-full relative overflow-hidden bg-blue-50 mx-4 my-4 rounded-3xl h-96">
+        <div className="md:hidden w-full relative overflow-hidden bg-blue-50 mx-4 my-0 rounded-3xl h-96">
           <div className="absolute inset-0 flex items-end justify-end pr-2">
             <Image
               src={nathan}

@@ -19,7 +19,7 @@ const AboutSection = () => {
             Realiza procedimentos como limpezas, check-ups, restaurações, raspagens, extrações e facetas. Sempre com foco em segurança e conforto.
           </p>
 
-          <div className="space-y-4 my-8">
+          <div className="space-y-4 my-8 text-left">
             {[
               { icon: <FaTooth className="text-custom-blue" />, label: 'Experiência Comprovada', description: 'Técnicas modernas para os melhores resultados.' },
               { icon: <FaUserTie className="text-custom-blue" />, label: 'Atendimento Humanizado', description: 'Cuidado personalizado e focado em você.' },
